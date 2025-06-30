@@ -12,7 +12,7 @@ st.title("🔥 Calories Burnt Prediction App")
 
 # GitHub raw URLs
 CALORIES_CSV_URL = "https://github.com/vanshika701/Calorie-Burnt-Predict/blob/main/calories.csv"
-EXERCISE_CSV_URL = "https://github.com/vanshika701/Calorie-Burnt-Predict/blob/main/exercise.csv"
+EXERCISE_CSV_URL = "https://raw.githubusercontent.com/vanshika701/Calorie-Burnt-Predict/refs/heads/main/exercise.csv"
 
 # Load data directly from GitHub
 calories = pd.read_csv(CALORIES_CSV_URL)
