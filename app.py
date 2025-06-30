@@ -11,7 +11,7 @@ st.set_page_config(page_title="Calories Burnt Predictor")
 st.title("🔥 Calories Burnt Prediction App")
 
 # GitHub raw URLs
-CALORIES_CSV_URL = "https://raw.githubusercontent.com/username/calorie-burnt-predict/main/calories.csv"
+CALORIES_CSV_URL = "https://github.com/vanshika701/Calorie-Burnt-Predict/blob/main/calories.csv"
 EXERCISE_CSV_URL = "https://raw.githubusercontent.com/username/calorie-burnt-predict/main/exercise.csv"
 
 # Load data directly from GitHub
