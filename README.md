@@ -1,9 +1,9 @@
-# 🔥 Calories Burnt Prediction App
+# Calories Burnt Prediction App
 
 This Streamlit web application predicts the number of calories burnt during exercise based on user inputs like age, gender, height, weight, heart rate, exercise duration, and body temperature. It uses an XGBoost regression model trained on real-world exercise and calorie data.
 
 ---
-👉 [Click here to try the app](https://calorie-burnt-predict-jwqshdbz2bb8pxraqx26pr.streamlit.app/)  
+[Click here to try the app](https://calorie-burnt-predict-jwqshdbz2bb8pxraqx26pr.streamlit.app/)  
 <!-- Replace the # with your deployed app link -->
 ## 📁 Files Required
 
@@ -15,7 +15,7 @@ Before running the app, make sure you have the following files:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone this repository** or place the app code (`app.py`) in your project folder.
 
@@ -54,7 +54,7 @@ Enter values for gender, age, height, weight, duration, heart rate, and body tem
 
 Predicts estimated calories burnt
 
-🧠 Model Details
+ Model Details
 Model Used: XGBRegressor from xgboost
 
 Train-Test Split: 80-20
@@ -63,7 +63,7 @@ Target Variable: Calories
 
 Features Used: All user and exercise-related columns except User_ID
 
-💡 Sample Input Fields in UI
+Sample Input Fields in UI
 Gender: male / female
 
 Age: 10–100
@@ -78,13 +78,6 @@ Heart Rate: 60–200
 
 Body Temperature (°C): 35.0–42.0
 
-📌 Note
-Make sure to upload both CSV files together — the app will not run if either is missing.
-
-Gender is automatically encoded as 0 (male) and 1 (female) during preprocessing.
-
-🛡️ License
-This project is for educational purposes only.
 
 🙌 Acknowledgements
 Streamlit
